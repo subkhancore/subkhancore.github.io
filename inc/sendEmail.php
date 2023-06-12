@@ -1,14 +1,14 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
+$siteOwnersEmail = 'msubkhan99@gmail.com';
 
 
 if($_POST) {
 
-   $name = trim(stripslashes($_POST['contactName']));
+   $name = trim(htmlspecialchars($_POST['contactName']));
    $email = trim(stripslashes($_POST['contactEmail']));
-   $subject = trim(stripslashes($_POST['contactSubject']));
+   $subject = trim(htmlspecialchars($_POST['contactSubject']));
    $contact_message = trim(stripslashes($_POST['contactMessage']));
 
    // Check Name

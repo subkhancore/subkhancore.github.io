@@ -1120,7 +1120,7 @@ header .logo a {
 	width: 92px;
 	height: 15px;
 	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+	background-size: 92px 30px;
 }
 
 /**
@@ -1504,15 +1504,18 @@ header .logo a {
 	margin-left: -30px;
 }
 .intro-info img {
-	height: 9rem;
-	width: 9rem;
+	flex: 0 0 auto;
+    width: 33.33333333%;
+	margin: 0 auto;
+	float: center;
+	height: 100%;
 	border-radius: 50%;
-	margin: .9rem 0 0 0;
-	float: left;
+
 }
+
 .intro-info .lead {
-	text-align: left;
-	padding-left: 13rem;
+	text-align: center;
+	padding-top: 1rem;
 }
 
 .about-content {
